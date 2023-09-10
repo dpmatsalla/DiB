@@ -1,0 +1,89 @@
+
+/* All except large Screens */
+@media (min-width:1220px) {
+.uk-container {
+    max-width: 1150px;
+
+}
+}
+/* All except large Screens */
+@media (max-width:1220px) 
+
+{
+
+}
+
+
+/* Only Tablets (Portrait) */
+@media (min-width:768px) and (max-width:959px) {
+
+}
+
+
+/* Only Phones (Portrait) (Landscape) and Small Tablet (Portrait) */
+@media (max-width:767px) {
+
+.tm-top-a .uk-width-medium-1-2{
+    width: 100% !important;
+}
+.uk-navbar , .tm-top-block{background:none;box-shadow:none;}
+
+.uk-navbar-toggle {
+    color: #99cc00;
+   margin: 30px 0;
+}
+.uk-navbar-toggle:hover, .uk-navbar-toggle:focus {
+    color: #ccc;
+  
+}
+.tm-navbar  .uk-navbar-center {
+    max-width: 100%;
+}
+
+.float-left.width33.sponsers
+{
+  width:100%;
+  float:none;
+  text-align:center;
+}
+
+/* Force table to not be like tables anymore */
+table.event_message,table.event_message td,table.event_message tr { 
+	display: block; 
+}
+table.event_message td { 
+	/* Behave  like a "row" */
+	border: none;
+	border-bottom: 1px solid #eee; 
+	position: relative;
+}
+
+table.event_message td select {
+	width:100%;
+} 
+#dttype_choice{width:auto!important;}
+#dttype_choice > div {
+	float:none!important;
+}
+
+
+
+}
+
+/* Only Phones (Landscape) and Small Tablet (Portrait) */
+@media (min-width:480px) and (max-width:767px) {
+
+}
+
+/* Only Phones (Portrait) */
+@media (max-width:479px) {
+.tm-top-a .wk-gallery-avenue .caption {
+    display: block !important;
+    padding:0 10px!important;
+      bottom: 5px;
+}
+
+.wk-gallery-avenue .caption h1 {
+    font-size: 15px;
+}
+}

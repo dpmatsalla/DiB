@@ -1,0 +1,124 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+
+.tm-top-a
+.uk-width-medium-1-2:first-child {
+    width: 66.666%;
+}
+
+.tm-top-a
+.uk-width-medium-1-2 {
+    width: 33.333%;
+}
+.uk-navbar-nav > li > a {
+    text-transform: capitalize;
+}
+
+/*custom menu css for dekstop and tablet view*/
+@media (min-width:768px) 
+{
+
+.uk-nav-navbar li{position:relative;}
+
+.uk-nav-sub {
+    display: none;
+    position: absolute;
+    right: 196px;
+    width: 135px;
+    background: #ffffff none repeat scroll 0 0 padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.06);
+    color: #555555;
+    top:0;
+}
+
+
+.uk-nav-navbar li:hover .uk-nav-sub {
+display:block;
+}
+
+  
+} /*resp end*/
+
+
+.sponsers-partners img {
+width:100px;
+}
+
+/*.caption input {
+width:40%;
+margin-left:5%;
+}*/
+
+
+
+
+/*==============*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================joomlafreaks====================*/
+
+.float-left
+{
+  float:left;
+}
+
+.sponsers
+{
+  min-height:120px;
+  text-align:center;
+}
+
+
+/*.sponsers-site {
+    text-align: center;
+}*/
+
+
+.upcoming-events {
+    float: left;
+    margin-right: 5%;
+    width: 15%;
+}
+
+.dt_event_title, .dt_event_date 
+{
+    /*float: left;*/
+    width: 80%;
+}
+
+.aec-processor-buttons .processor-button
+{
+  height:42px!important;
+  width:200px!important;
+}
+
+.aec-processor-buttons .processor-button .btn-processor-paypal_subscription
+{
+    height:42px!important;
+  width:200px!important;
+}
+
+.btn-processor-paypal_subscription i.btn-overlay
+{
+  display:none!important;
+}
+
+.main-bottom-membership h3
+{
+  font-size: 22px;
+    font-weight: bold;
+}
